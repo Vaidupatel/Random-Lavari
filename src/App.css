@@ -1,16 +1,27 @@
 .App {
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("./image/syringe.jpg");
-  background-size: cover;
+    url("./image/advice.jpg");
+  background-size: contain;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+.Logo {
+  background: url("./image/VP_Logo.png");
+  background-size: contain;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
 .Card {
-  background-color: rgba(245, 245, 245, 0.048);
+  background-color: rgba(83, 81, 81, 0.801);
   height: auto;
   width: 50vw;
   display: flex;
@@ -27,6 +38,7 @@
   width: fit-content;
   align-items: center;
   justify-content: center;
+  color: #ffffff;
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -34,7 +46,6 @@
 }
 
 .btn {
-  /* width: 15rem; */
   height: 4rem;
   padding: 1rem;
   border-radius: 3em;
@@ -66,7 +77,7 @@
   background: linear-gradient(45deg, #6d5e52, #886a3e);
   box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
     inset 0px -2px 0px 0px rgba(0, 0, 0, 0.2),
-    0px 0px 0px 2px rgba(255, 255, 255, 0.2), 0px 0px 180px 0px #a37455;
+    0px 0px 0px 2px rgba(255, 255, 255, 0.2), 0px 0px 80px 0px #a37455;
   transform: translateY(-5px);
 }
 

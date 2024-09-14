@@ -25,6 +25,7 @@ class App extends React.Component {
     return (
       <>
         <div className="App">
+          <div className="Logo"></div>
           <div className="Card">
             <h1 className="Heading">{advice}</h1>
             <button className="btn" onClick={this.fetchAdvice}>
